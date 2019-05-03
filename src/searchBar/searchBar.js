@@ -32,7 +32,8 @@ class SearchBar extends Component {
                             id='search'
                             placeholder='search'
                             value={this.state.query}
-                            onChange={e => this.queryChange(e.target.value)}/>
+                            onChange={e => this.queryChange(e.target.value)}
+                            required/>
                         <button type='submit'>Search</button>
                     <label htmlFor='print'>Print Type:</label>
                         <select

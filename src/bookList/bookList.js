@@ -12,6 +12,7 @@ class BookList extends Component {
     render() {
         return(
             <div className='bookList'>
+                <Book book={this.props.books.items[0]}/>
             </div>
         )
     }
